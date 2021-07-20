@@ -24,7 +24,8 @@ etc
 */
 
 export function makeWeirdStringFromKeys(someObject) {
-    return '';
+    const keys = Object.keys(someObject);
+    return keys.join('');
 }
 
 
@@ -38,7 +39,7 @@ Output:
 */
 
 export function makeMoreScreamingKeys(someObject) {
-    return {};
+   return {};
 }
 
 /*
