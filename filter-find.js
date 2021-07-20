@@ -97,5 +97,5 @@ Output:
 */
 
 export function listNamesOfAllFruits(arr) {
-    return [];
+    return arr.filter((item => item.category === 'fruit'), arr.map(item => item.id))
 }
